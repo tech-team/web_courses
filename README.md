@@ -18,10 +18,12 @@
 
 ### Полезные ссылки
 #### HTML
-* TODO: Codeacademy etc
+* [Курс по HTML](https://htmlacademy.ru/courses)
 
 #### Python
-* TODO: 
+* https://docs.python.org/2/tutorial/
+* https://www.codecademy.com/learn/python
+* http://www.learnpython.org/en/
 
 ### Авторы курса
 * Леонтьев Алексей: @alekseyl1992
