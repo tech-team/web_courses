@@ -1,0 +1,24 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+VAGRANTFILE_API_VERSION = "2"
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+
+  # config.vm.box = "ubuntu/trusty64"
+  config.vm.box = "box-cutter/ubuntu1404-desktop"
+
+  config.vm.network :forwarded_port, guest: 8080, host: 8080
+  config.vm.synced_folder "./", "/home/vagrant/pythondev/"
+
+  config.vm.provision "shell",
+    privileged: false,
+    path: "provision.sh"
+
+  config.vm.provider "virtualbox" do |v|
+    v.gui = false
+    v.memory = 2000
+    v.cpus = 4
+    v.customize ["modifyvm", :id, "--natdnshostresolver1", "on"]
+    v.customize ["modifyvm", :id, "--natdnsproxy1", "on"]
+  end
+end
