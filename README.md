@@ -14,7 +14,7 @@
   [Техническое задание](https://docs.google.com/document/d/1YHuQDKlaRZv6uEhVbqmGfDin9XVNpvuXAIhz6xpQYwk/edit)
 2. Ознакомление с Python
   
-  [TODO: Техническое задание](https://google.com)
+  [Техническое задание](https://docs.google.com/document/d/1SdhnWwQLcR6qjbgvVZbSBpmRtcVVc48uq3kMtxhpV0c/edit)
 
 ### Полезные ссылки
 #### HTML
