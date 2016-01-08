@@ -18,11 +18,11 @@
 
 ### Полезные ссылки
 #### HTML
-* [Курс по HTML](https://htmlacademy.ru/courses)
+* [Курс по HTML](https://htmlacademy.ru/courses). Рекомендуется пройти все блоки до селекторов.
 
 #### Python
 * https://docs.python.org/2/tutorial/
-* https://www.codecademy.com/learn/python
+* https://www.codecademy.com/learn/python - рекомендуется пройти 8 первых блоков
 * http://www.learnpython.org/en/
 
 ### Авторы курса
