@@ -28,6 +28,7 @@ tar -xzvf pycharm-professional-5.0.3.tar.gz
 sudo mv pycharm-5.0.3/ /opt
 cd -
 sudo cp pythondev/jetbrains-pycharm.desktop /usr/share/applications
+sudo chown -R vagrant:vagrant ~/pythondev/
 
 sudo sh -c "echo 'Europe/Moscow' > /etc/timezone"
 sudo dpkg-reconfigure -f noninteractive tzdata
