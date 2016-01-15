@@ -13,7 +13,7 @@ echo debconf shared/accepted-oracle-license-v1-1 select true | sudo debconf-set-
 echo debconf shared/accepted-oracle-license-v1-1 seen true | sudo debconf-set-selections
 sudo apt-get install -y --force-yes mysql-client mysql-server \
                                     python-dev python-pip \
-                                    htop vim \
+                                    htop vim git \
                                     oracle-java8-installer \
                                     chromium-browser
 
