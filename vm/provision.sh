@@ -1,7 +1,7 @@
 #! /usr/bin/env bash
 
-VERSION=1.0
-
+VERSION=1.1
+sudo apt-get purge -y --force-yes thunderbird*
 sudo add-apt-repository -y ppa:webupd8team/java
 
 sudo apt-get update
@@ -29,6 +29,7 @@ sudo mv pycharm-5.0.3/ /opt
 cd -
 sudo cp pythondev/jetbrains-pycharm.desktop /usr/share/applications
 sudo chown -R vagrant:vagrant ~/pythondev/
+sudo usermod -aG vboxsf vagrant
 
 sudo sh -c "echo 'Europe/Moscow' > /etc/timezone"
 sudo dpkg-reconfigure -f noninteractive tzdata
